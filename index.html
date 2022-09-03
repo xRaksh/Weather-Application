@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather</title>
+    <link rel="Icon" href="icons/cloud.svg">
+
+    <!-- Linking CSS Files -->
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="index3.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <button><img src="icons/back-arrow.svg" alt=""></button>
+            Weather App
+        </header>
+        <section class="main">
+            <p class="text"></p>
+
+            <div class="content">
+                <input type="text" spellcheck="false" placeholder="Enter city name" required>
+                <div class="bnt"></div>
+                <button>Get Your Location</button>
+            </div>
+        </section>
+        <section class="weather-part">
+            <img src="#" alt="weather Icon">
+            <div class="temp">
+                <span class="numb">-</span>
+                <span class="deg">°</span>C
+            </div>
+            <div class="weather">--</div>
+            <div class="location">
+                <i class="map"></i>
+                <span><img src="#" alt=""></span>
+                <span>_</span>
+            </div>
+            <div class="bottom-details">
+                <div class="column feels">
+                    <i class="thermometer"></i>
+                    <img src="icons/thermo.svg" alt="">
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">-</span>
+                            <span class="deg">°</span>C
+                        </div>
+                        <p>Feels Like</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <div class="drop">
+                        <i><img src="icons/drop.png" alt=""></i>
+                        <div class="detailsH">
+                            <span class="numb">83%</span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- linking JavaScript FIle -->
+    <script src="index1.js"></script>
+
+</body>
+
+</html>

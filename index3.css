@@ -1,0 +1,71 @@
+.container .weather-part{
+    margin: 30px 0 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container.active .weather-part{
+    display: flex;
+}
+.weather-part img{ 
+    max-width: 130px;
+}
+.weather-part .temp{
+    display: flex;
+    font-size: 70px;
+    font-weight: 700;
+}
+.weather-part .weather{
+    font-size: 22px;
+    text-align: center;
+    margin: -5px 20px 15px;
+}
+.weather-part .location{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.location i{
+    font-size: 22px;
+    margin-right: 5px;
+}
+.weather-part .bottom-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+    width: 100%;
+}
+.bottom-details .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.column.humidity{
+    border-left: 1px solid #000;
+}
+.details .temp, .humidity span{
+    font-size: 35px;
+}
+.details p{
+    font-size: 20px;
+}
+.humidity .drop i img{
+    /* margin-top: 17px; */
+    height: 38px;
+    width: 30px;
+}
+.humidity .drop .detailsH{
+    display: inline;
+}
+.humidity .drop .detailsH p{
+    font-size: 20px;
+    margin-left: 35px;
+}
+.humidity .drop .detailsH span{
+    font-size: 35px;
+    font-weight: 700;
+}

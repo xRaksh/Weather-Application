@@ -1,0 +1,23 @@
+/* CSS code for Message above input box like warring */
+
+.main .text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+}
+.text.error{
+    color: #da2b3c;
+    background: #f8d7da;
+    border: none;
+    display: block;
+}
+.text.pending{
+    color: #0c6460;
+    background: #d1ecf1;
+    border: none;
+    display: block;
+}
